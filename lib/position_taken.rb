@@ -4,8 +4,8 @@ board = [" "," "," "," "," "," "," "," "," "]
 
 def position_taken?
   if board[index] = " " || ""
-    return true
-  else
     return false
+  elsif board[index] = "X" || "O"
+    return true
   end
 end
